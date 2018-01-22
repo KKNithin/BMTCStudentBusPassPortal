@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="../../BMTCBUSPASS/web/style/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>BMTC STUDENT BUS PASS PORTAL</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+    </head>
+    <body>
+       <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">BMTC STUDENT <span class="logo_colour">BUS PASS PORTAL</span></a></h1>
+          <h2>Digitalized way to get student bus pass.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+        <li class="selected"><a href="index.html">Application</a></li>
+          <li><a href="Student.html">Student</a></li>
+          <li><a href="college.html">College</a></li>
+          <li><a href="bmtcemployee.html">BMTC Employee</a></li>
+          <li><a href="instructions.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+     <div id="content">
+          
+        <!-- insert the page content here -->
+		<div class="form_settings">
+                    <form action="app" method="post" >
+        <h1>PLEASE fill the form to Apply for BUS PASS</h1>
+        <h3>USE CAPITAL LETTERS ONLY</h3>
+        <pre> <h4> USN                          : <input type="text" name="ausn" placeholder="university seat number" /><h4></pre>
+        <pre> <h4> APPLICANT NAME  : <input type="text" name="aname" placeholder="Name as per records" /><h4></pre>
+       		<pre> <h4> COURSE                  : <select name="ac"><option>B.E</option><option>B.COM</option></select><h4></pre>
+        <pre> <h4> TYPE OF PASS       : <select name="at"><option>YEARLY</option><option>TEN MONTHS</option></select><h4></pre>
+       
+   	    <pre> <h4> ROUTE ID               : <input type="text" name="arid" placeholder="Refer below link if not known" /><h4></pre>
+        <pre><a href="instructions.html">                          type of route</a></pre>
+   	    <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="submit" value="Apply" /></p>
+		<p style="padding-top: 10px"><span>&nbsp;</span><input class="submit" type="reset" name="submit" value="Reset" /></p>
+		</form>
+                </div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      </div>
+  </div>s
+    </body>
+</html>
